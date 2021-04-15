@@ -6,6 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 
+/**
+ * @author XXHH
+ */
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 public class SpringChuxueApplication {
 
